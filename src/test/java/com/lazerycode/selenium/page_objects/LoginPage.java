@@ -19,9 +19,10 @@ public class LoginPage {
     }
     public void login() {
         userName.findWebElement().clear();
-        userName.findWebElement().sendKeys("yonir@ravtech.co.il");
+        #enter git login details 
+        userName.findWebElement().sendKeys("");
         password.findWebElement().clear();
-        password.findWebElement().sendKeys("1q2w3e4r");
+        password.findWebElement().sendKeys("");
         password.findWebElement().submit();
 
     }
